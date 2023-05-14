@@ -1,0 +1,123 @@
+body {
+    margin: 0;
+    background-color: #C8E2F0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+img {
+    max-width: 100%;
+    height: auto; /* serve a eliminare il margin-bottom che le immagini hanno di default */
+}
+
+
+
+main {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+header a {
+    text-decoration: none;
+    color: #1a0f0f;
+    
+   
+}
+
+header a:hover {
+    color: rgb(43, 53, 169);
+    
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2px;
+    background-color: #28A3DD;
+}
+
+
+
+header nav ul {
+    list-style-type:none;
+    font-size: 30px;
+    display:flex;
+    gap: 500px;
+}
+
+section.hero {
+    background:rgba(243,191,105, 0.8);/* colore impostato con RGB e con la trasparenza, che si può notare sopratutto quando cambia il colore di sfondo */
+    border-radius: 50px;
+    margin: 60px;
+    margin-left: 1%;
+    max-width: 975px;
+}
+
+
+section.hero h1 {
+    margin: 20px;
+    padding: 30px 10px;
+    font-size: 30px;
+    color: #414A4F;
+}
+section.hero2 {
+    background:#FB9334;/* colore impostato con RGB e con la trasparenza, che si può notare sopratutto quando cambia il colore di sfondo */
+    border-radius: 50px;
+    margin: 60px;
+    margin-left: 1%;
+    max-width: 750px;
+    margin: 20px;
+    font-size: 30px;
+    color: #414A4F;
+    padding: 5px 30px
+}
+
+section.hero1 {
+    max-width: 1000px;
+    background:rgba(58, 106, 201, 0.8);/* colore impostato con RGB e con la trasparenza, che si può notare sopratutto quando cambia il colore di sfondo */
+    text-align: right;
+    border-radius: 50px;
+    margin-left: 690px;
+    
+}
+
+
+section.hero1 h1 {
+    margin: 20px;
+    padding: 30px 10px;
+    font-size: 30px;
+    color: #414A4F;
+}
+
+    
+div.end{
+    margin: 0;
+    text-align: end;
+    padding-bottom: 3%;
+    padding-right: 2%;
+}
+
+footer {
+    max-width: auto;
+    text-align: center;
+    padding: 30px;
+    background-color: #003D59;
+
+}
+
+footer p {
+
+     margin: 0;
+    padding: 10px 0;
+    font-size: 30px;
+    color:#ffffff
+}
+
+
+
+
+    header {
+        flex-direction: column;
+        gap:10px;
+    }
